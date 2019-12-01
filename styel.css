@@ -1,0 +1,38 @@
+h1 {
+    font-size: 3em;
+    text-shadow: 2px 2px gray;
+  justify-content: center;
+text-align: center;
+}
+body {
+    text-align: center;
+    background-color: lightgreen;
+    font-family: "Oswald"
+  }
+
+.board {
+    width: 400px;
+    height: 300px;
+    margin: 0%;    
+     margin: 30px auto;
+     text-align: center;
+        
+      
+    
+}
+
+.btn button {
+    text-align: center;
+    display: flex;
+    border-radius: 5px;
+    border:rgb(204, 188, 134) solid;
+    background: rgb(70, 109, 134);
+    width: 120px;
+    height: 120px;
+    margin: 5px;
+    font-size: 100px;
+    font-family: sans-serif;
+     float: left; 
+}
+
+
