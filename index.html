@@ -1,50 +1,77 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
+    <!-- Sound -->
+    <script src="sounds.js" type="text/javascript"></script>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <!-- // linking our CSS file  -->
-    <link rel="stylesheet" href="styel.css">  
-    <title> Tic Tac Toe </title>
+    <link rel="stylesheet" href="styel.css">
+    <title> Tic Tac Toe </title>    
 </head>
+
 <body>
-    <div class="sound"> 
-    <audio>
-     <source class="winnerAudio" src="img/sms-alert-5-daniel_simon.mp3" type="audio/mpeg">
+    <!--  our Audio  -->
+    <audio id="MyAduio">
+        <audio src="" class="winAudio"></audio>
+        <audio src="smb_gameover.wav" class="loseAudio"></audio>
     </audio>
-    
-    </div>
-    
+    <!-- title of our game, so player has an idea of what he is goign to play -->
 
-<!-- title of our game, so player has an idea of what he is goign to play -->
     <h1> Tic Tac Toe</h1>
-<!-- creating the board of the our game  -->
-<div class="board"> 
-<div class="btn"> 
-<!-- our button that we will deal with  -->
-<button class="btn1"></button>  
-<button class="btn2"></button>  
-<button class="btn3"></button>  
-<button class="btn4"></button>  
-<button class="btn5"></button>  
-<button class="btn6"></button>  
-<button class="btn7"></button>  
-<button class="btn8"></button>  
-<button class="btn9"></button>  
-</div>
-</div> 
+    <!-- creating the board of the our game  -->
+    <div class="board">
+        <div class="btn">
+            <!-- our button that we will deal with  -->
+            <button class="btn1"></button>
+            <button class="btn2"></button>
+            <button class="btn3"></button>
+            <button class="btn4"></button>
+            <button class="btn5"></button>
+            <button class="btn6"></button>
+            <button class="btn7"></button>
+            <button class="btn8"></button>
+            <button class="btn9"></button>
+        </div>
+    </div>
+
+    <aside>
+        <div class="players">
+            <p> Player1 | </span> <span class="p1">0 </span> </p>
+            <p> Player2 </span> <span class="p2">0 </span> </p>
+
+        </div>
+
+        <div id="rest">Rest!</div>
+    </aside>
 
 
 
 
-<!-- calling JQury  -->
-<script
-  src="https://code.jquery.com/jquery-3.4.1.min.js"
-  integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
-  crossorigin="anonymous"></script>
+    <footer>
 
-  <script src="main.js"> </script>
+        <p>&copy; Omar || General Assembly || 01/12/2019</p>
+        <ul>
+            <li> <a href="https://generalassemb.ly/blog/" target=_blank> Blog </a> </li>
+            <li> <a href="https://www.linkedin.com/school/general-assemb-ly/" target=_blank> LinkedIn </a> </li>
+            <li> <a href="https://twitter.com/GA?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor" target=_blank> Twitter </a> </li>
+        </ul>
+
+    </footer>
+
+
+
+
+
+
+    <!-- calling JQury  -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"
+        integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+
+    <script src="main.js"> </script>
 
 </body>
+
 </html>
