@@ -8,6 +8,8 @@ let player2 = 0
 let countP2 = $('aside .p2') // to count player2 wins
 
 
+
+
 // Our alerting funcations 
 
 let winAlert = function () {
@@ -88,6 +90,7 @@ function turn(event) {
     if (count % 2 == 0) {
         $(event.target).text('X');
         $(event.target).off();
+        
     } else { 
         $(event.target).text('O');
         $(event.target).off();

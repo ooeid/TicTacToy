@@ -1,13 +1,10 @@
 h1 {
-
+  
   font-size: 3em;
   justify-content: center;
   text-align: center;
 }
 
-h1:hover {
-  color: #EA4335;;
-}
 body {
     text-align: center;
     background-color: lightgreen;
@@ -24,6 +21,7 @@ body {
       
     
 }
+
 footer {
  font-size: 1.2em;
  background-color: #1D1F20;
@@ -129,4 +127,12 @@ font-size: 25px;
 
 aside #rest:hover{
   color: #EA4335;
+}
+#myAudio{
+  position: relative;
+  left: -146px;
+  top: -310px;
+}
+#myAudio:hover{
+  color:#EA4335
 }
