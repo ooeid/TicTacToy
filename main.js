@@ -6,6 +6,7 @@ let player1 = 0
 let countP1 = $('aside .p1') // to count player1 wins
 let player2 = 0
 let countP2 = $('aside .p2') // to count player2 wins
+let audio = new Audio('newAaudio.mp3')
 
 
 
@@ -86,15 +87,17 @@ function checkWinnerO() {
 //our playing funcation 
 
 function turn(event) {
-
+    
     if (count % 2 == 0) {
         $(event.target).text('X');
         $(event.target).off();
+        audio.play();
+        
         
     } else { 
         $(event.target).text('O');
         $(event.target).off();
-
+        audio.play();
     }
     checkWinnerX()
     checkWinnerO()
