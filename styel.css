@@ -1,26 +1,31 @@
 h1 {
-  
+  display: flex;
   font-size: 3em;
   justify-content: center;
   text-align: center;
+  flex-wrap: wrap;
 }
 
 body {
     text-align: center;
     background-color: lightgreen;
     font-family: "Oswald"
-  }
+    
+}
 
 .board {
-    width: 400px;
-    height: 300px;
-    margin: 0%;    
-     margin: 30px auto;
-     text-align: center;
-        
+  display: flex;
+  width: 400px;
+  height: 300px;
+  margin: 0%;    
+  margin: 30px auto;
+  text-align: center;
+  flex-wrap: wrap;   
       
     
 }
+
+
 
 footer {
  font-size: 1.2em;
@@ -40,6 +45,7 @@ footer ul {
  width: 50%;
  margin-left: auto;
  margin-right: auto;
+ flex-wrap: wrap;
 }
 
 footer li {
@@ -61,16 +67,17 @@ footer li a:hover {
   }
 
 .btn button {
-      text-align: center;
+    text-align: center;
     border-radius: 5px;
     border:grey thick;
     background: whitesmoke;
-    width: 110px;
+    width: 101px;
     height: 110px;
     margin: 5px;
     font-size: 70px;
     font-family: sans-serif;
     float: left; 
+    flex-wrap: wrap ;
 }
 
 .btn button:hover{
@@ -85,6 +92,7 @@ aside {
   float: right;
   font-style: italic;
   color: #1D1F20;
+  flex-wrap: wrap;
 }
  
 
@@ -136,3 +144,53 @@ aside #rest:hover{
 #myAudio:hover{
   color:#EA4335
 }
+
+@media (max-width:600px){
+
+    body {
+      
+        width: 93%;
+    }
+    h1 {
+      position: relative;
+      top: -33px;
+    }
+
+    div .btn{
+      position: relative;
+      top: -55px;
+      
+    }
+
+    aside .players {
+      top: -14px;
+  }
+    .board {
+      width: 100%;
+      margin: 0%;    
+  
+    }
+    footer {
+    
+     display: none;
+  
+     }
+  
+   
+  
+     aside { 
+       width: 100%;
+
+  }
+  
+aside #rest {
+  left: 153px;
+  top: -25px;
+}
+
+#myAudio {
+  position: relative;
+  left: 4px;
+  top: 16px;
+
+}}

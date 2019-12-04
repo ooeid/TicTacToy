@@ -13,14 +13,14 @@ let countP2 = $('aside .p2') // to count player2 wins
 // Our alerting funcations 
 
 let winAlert = function () {
-    alert('YOU ARE THE WINNER!')
+    swal('Player1 X win!')
+    btn.off();
 }
 let loseAlert = function () {
-    alert('YOOU ARE THE LOOSER!')
+    swal('Player2 O win!')
+    btn.off();
 }
-let drawAlert = function () {
-    alert('DRAW!')
-}
+
 
 
 // check winner funcation for player X
