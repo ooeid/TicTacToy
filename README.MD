@@ -11,6 +11,9 @@ fork and then clone this project so, you can have full verson on your computer.
 
 ## My Project Deployment
 
+you enter my game [here](https://ooeid.github.io/project-1/)
+
+
 
 ### Installing
 
@@ -21,7 +24,15 @@ fork and then clone this project so, you can have full verson on your computer.
 * Also, you will need a text editor to have         access to code structure. Atom is  recommended and you can download ot from        here  
 - [Atom](https://atom.io/)  
 
+### Tools used in the project
 
+* JQuery 
+* JavaScrpit 
+* HTML
+* CSS
+* Sweetalert2
+* Googel Chrome
+* Visual Studio 
   
 
 ### Future
@@ -32,21 +43,9 @@ fork and then clone this project so, you can have full verson on your computer.
 * Comfortable with phone screens 
 
 
-
-### Tools used in the project
-
-* JQuery 
-* JavaScrpit 
-* HTML
-* CSS
-* Sweetalert2
-* Googel Chrome
-* Visual Studio 
-
-
 ### 
 
-### Authors
+### Author
 
 * **OmarAlMogathwi** - *student of GA* 
 
