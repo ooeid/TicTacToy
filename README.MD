@@ -35,7 +35,7 @@ you enter my game [here](https://ooeid.github.io/project-1/)
 * Visual Studio 
   
 
-### Futures 
+### Features
 
 * Beautiful song to trun on or off while        playing 
 * Easy to access and play
@@ -43,7 +43,7 @@ you enter my game [here](https://ooeid.github.io/project-1/)
 * Comfortable with phone screens 
 
 
-### Features
+### Futures       
 
 * playing with  AI 
 * add a timer
